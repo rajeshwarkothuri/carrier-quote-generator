@@ -1,0 +1,13 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+@layer base {
+  :root {
+    --background: 40 20% 98%; --foreground: 215 30% 14%; --card: 0 0% 100%;
+    --border: 215 15% 86%; --input: 215 15% 80%; --ring: 190 70% 28%;
+    --primary: 213 45% 20%; --primary-foreground: 0 0% 100%;
+    --muted: 210 20% 95%; --muted-foreground: 215 12% 40%;
+    --destructive: 0 65% 40%; --destructive-foreground: 0 0% 100%; --success: 160 60% 26%;
+  }
+  body { @apply bg-background text-foreground antialiased; font-family: "Iowan Old Style", Charter, Georgia, serif; }
+  h1, h2, h3, label, button, input, select { font-family: ui-sans-serif, system-ui, sans-serif; }
+  h1, h2 { letter-spacing: -0.01em; }
+}
