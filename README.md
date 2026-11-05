@@ -120,3 +120,28 @@ Do not present the suggested workflow as a factual account unless it matches you
 ## Health endpoint
 
 `GET /api/health` reports registered carrier/product versions, schema fingerprints, and process-local counters. It contains no customer profile values. It is a prototype endpoint; production deployments should apply the appropriate access policy and export metrics to shared monitoring.
+
+## Local run images
+ **Customer view of  Quote submission page**
+
+ <img width="1323" height="995" alt="image" src="https://github.com/user-attachments/assets/4411b669-190c-4cf7-aa6c-11084ac06f54" />
+
+  **Customer JSON is given as input**
+
+ <img width="1323" height="995" alt="image" src="https://github.com/user-attachments/assets/07bd6546-9c29-4768-ab07-11d33a9a6a56" />
+
+ <img width="1323" height="995" alt="image" src="https://github.com/user-attachments/assets/d752afa0-bae1-4f46-a5d4-bb5b7ef5bc98" />
+
+ <img width="1323" height="995" alt="image" src="https://github.com/user-attachments/assets/11a930dd-7f5d-4fed-b6db-ad9d49b4e6ee" />
+
+
+
+ ** Carrier Quote generated after submission is successful **
+ <img width="1323" height="995" alt="image" src="https://github.com/user-attachments/assets/e4e5112a-a2cc-47eb-b238-dba6304cb3c8" />
+
+  **Error message if customer is ineligible**
+  <img width="1323" height="995" alt="image" src="https://github.com/user-attachments/assets/ada567f3-cc73-48f6-bfed-c1e343db87ae" />
+
+
+ 
+
